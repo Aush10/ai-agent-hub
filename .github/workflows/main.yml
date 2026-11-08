@@ -1,0 +1,10 @@
+git clone https://github.com/Aush10/ai-agent-hub.git
+cd ai-agent-hub
+curl -L "https://muse.ai/files/1432081273326077/2192235178841878/ncpn8ve29tylwbvy3a9x8u8v/ai-agent-hub-seed.zip" -o seed.zip
+unzip -o seed.zip && rm seed.zip
+git config user.name "Aush10"
+git config user.email "46615814+Aush10@users.noreply.github.com"
+git add -A
+git commit -m "Seed Muse's hub - day one"
+git branch -M main
+git push -u origin main
